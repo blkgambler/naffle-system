@@ -1,0 +1,134 @@
+.UserProfile2{
+    margin-left: 30px;
+}
+.UserProfileCard{
+    width: 950px;
+    height: auto;
+    border-radius: 30px !important;
+    display: flex;
+    justify-content: left;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset !important;
+}
+.UserProfileCard .ant-card-body{
+    background-color: white !important;
+    border-radius: 30px !important;
+
+}
+.CardInRow{
+    display: flex;
+    flex-direction: row;
+}
+.UserLoginState{
+    font-size: 32px;
+    margin-top: 30px;
+}
+.ProfileView{
+    font-size: 16px;
+    color: #fdfd3e;
+    background-color: #292929;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.ProfileDes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.ProfileCardGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    gap: 20px;
+}
+@media screen and (max-width:1290px) {
+    .UserProfileCard{
+        width: 700px;
+    }
+    .UserProfile2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ProfileDes{
+        margin-left: 40px;
+    }
+    .ProfileCardGrid{
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .ProfileCardGrid .ant-card{
+        margin-top: 20px !important;
+    }
+}
+@media screen and (max-width:1090px) {
+    .UserProfileCard{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .CardInRow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ProfileDes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+    
+    .ProfileView{
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .ProfileCardGrid{
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .UserProfile2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}   
+
+
+@media screen and (max-width:770px){
+    .UserProfile2{
+        margin: 0px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:425px){
+    .UserProfileCard{
+        width: 250px;
+    }
+    .UserProfileCard .ant-card-body{
+        width: 250px;
+    }
+    .UserLoginState{
+        text-align: center;
+    }
+    .UserLoginState{
+        font-size: 24px;
+    }
+    .UserProfile2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

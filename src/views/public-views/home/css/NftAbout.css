@@ -1,0 +1,30 @@
+.NftAbout {
+    background-color: #01e0dd;
+}
+
+.NftInRow {
+    max-width: 950px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px 40px 20px;
+}
+
+.AboutType {
+    font-family: Bebas Neue;
+    font-size: 24px;
+    color: white;
+}
+.AboutCaption{
+    font-size: 70px !important;
+    font-family: Bebas Neue;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+}
+.AboutText{
+    font-family: Poppins;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}

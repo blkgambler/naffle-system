@@ -1,0 +1,60 @@
+.CoverSystem{
+    background: linear-gradient(180deg, #fff 0, #aaf4f3 ) !important;
+}
+
+.SystemInRow{
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 30px 120px 30px;
+}
+.SystemType{
+    font-family: Bebas Neue;
+    font-size: 24px;
+    color: #04dedf;
+}
+
+.SystemCaption{
+    font-size: 50px;
+    font-family: Bebas Neue;
+    line-height: 50px;
+}
+.SystemText{
+    max-width: 680px;
+    font-family: Poppins;
+    color: black;
+    text-align: center;
+    margin-left: 180px;
+}
+.SystemInfo{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+@media screen and (max-width:1220px) {
+    .SystemDes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .SystemText{
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .SystemInfo{
+        align-items: center;
+    }
+    .SystemCaption{
+        text-align: center;
+    }
+}
+.ViewAllCollection{
+    margin-top: 30px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 20px;
+}

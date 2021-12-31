@@ -1,0 +1,54 @@
+.SingleCardTableRow{
+    background-color: #01e0dd;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.SingleCardTableRow{
+    padding: 30px;
+}
+.SingleCardTableRow .ListCaption{
+    font-family: Bebas Neue;
+    font-size: 32px;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+.SingleCardTableRow .SingleCardTableRow table{
+    width: 100%;
+    color: white;
+}
+.SingleCardTableRow .ProfilePriceTableRow th{
+    font-family: Bebas Neue;
+    font-size: 26px;
+}
+.SingleCardTableRow th::after{
+    content: "";
+    display: block;
+    border: 1px solid white;
+    width: 5vw;
+}
+.SingleCardTableRow td{
+    font-family: Bebas Neue;
+    font-size: 20px;
+}
+.SingleCardTableRow table,td,th{
+    text-align: left !important;
+    padding: 10px;
+}
+.SingleCardTableRow .CoverTable{
+    height: 350px;
+    overflow-y: scroll;
+    width: 100%;
+}
+.SingleCardTableRow .CoverTable::-webkit-scrollbar{
+    width: 8px;
+}
+.SingleCardTableRow .CoverTable::-webkit-scrollbar-track{
+    background-color: #b3b300 !important;
+    border-radius: 20px;
+}
+.SingleCardTableRow .CoverTable::-webkit-scrollbar-thumb{
+    background-color: #fdfd3e;
+    border-radius: 20px;
+}

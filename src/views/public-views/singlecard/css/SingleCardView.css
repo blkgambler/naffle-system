@@ -1,0 +1,11 @@
+.SCVInRow{
+    width: 1200px;
+    margin-top: 80px;
+}
+
+@media screen and (max-width:985px) {
+    .SCVInRow{
+        flex-direction: column;
+        align-items: center;
+    }
+}

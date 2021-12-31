@@ -1,0 +1,43 @@
+.CollectionInfoBox{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.InfoBoxLogo{
+    font-family: Bebas Neue;
+    font-size: 70px;
+    text-align: center;
+}
+.InfoCellBox{
+    
+}
+.InfoCell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 180px;
+    border: 1px 
+    solid #eee;
+}
+.InfoCell:first-child{
+    border-radius: 20px 0px 0px 20px;
+}
+.InfoCell:last-child{
+    border-radius: 0px 20px 20px 0px;
+}
+.NewItemCaption{
+    font-size: 25px;
+    font-family: Poppins;
+}
+.NewItemText{
+    color: #8a7f7c;
+    font-family: Poppins;
+}
+.NewItemBlackArrow{
+    width: 25px;
+}

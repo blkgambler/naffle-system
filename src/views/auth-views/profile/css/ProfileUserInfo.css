@@ -1,0 +1,26 @@
+.MainProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ProfileImage1{
+    max-width: 300px;
+}
+.BigUsername{
+    font-size: 32px;
+}
+.UsernameEmail{
+    font-size: 24px;
+    color: #808080;
+}
+.CompanyCom{
+    font-size: 15px;
+}
+.LinkDes{
+    font-size: 20px;
+}
+@media screen and (max-width:315px){
+    .ProfileImage1{
+        max-width: 200px;
+    }
+}

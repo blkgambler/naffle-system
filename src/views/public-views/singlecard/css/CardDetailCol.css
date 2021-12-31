@@ -1,0 +1,124 @@
+.CardDetailImg{
+    border-radius: 20px;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+.CardDetailCol{
+    width: 500px !important;
+    display: flex;
+    flex-direction: column;
+}
+.DetailCollapse{
+    max-width: 600px;
+    background-color: #01e0dd;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.DetailContent .ant-collapse-content,.ant-collapse-content-active{
+    background-color: #01e0dd;
+}
+.CardDetailCol .ant-collapse-content{
+    border: none;
+}
+.CardDetailCol .ant-collapse-item{
+    border: none;
+}
+
+.CardDetailCol .ant-collapse-header::after{
+    content: "";
+    border: 1px solid white;
+    width: 100%;
+    transform: scale(1);
+    margin-top: 20px;
+}
+.CardDetailCol .ant-collapse-header{
+    display: flex;
+    flex-direction: column;
+    color: white !important;
+    font-family: Bebas Neue;
+    font-size: 25px;
+}
+.CardDetailCol .ant-collapse-content{
+    color: white;
+    font-family: Poppins;
+    font-size: 15px;
+}
+.CardDetailCol .ant-collapse-content-box::-webkit-scrollbar{
+    overflow-y: scroll;
+    width: 8px;
+}
+.CardDetailCol .ant-collapse-content-box::-webkit-scrollbar-thumb{
+    background-color: #fdfe40;
+    border-radius: 20px;
+}
+.CardDetailCol .ant-collapse-content-box::-webkit-scrollbar-track{
+    background-color: #b3b300;
+    border-radius: 20px;
+}
+.CardDetailCol .ant-collapse-content-box{
+    overflow-y: scroll;
+    height: 150px !important;
+}
+@media screen and (max-width:615px) {
+    .CardDetailImg{
+        width: 500px;
+    }
+    .DetailCollapse{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .CardDetailCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:555px) {
+    .CardDetailCol{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:535px) {
+    .CardDetailImg{
+        width: 400px;
+    }
+    .DetailCollapse{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .CardDetailCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:435px) {
+    .CardDetailImg{
+        width: 300px;
+    }
+    .DetailCollapse{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .CardDetailCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:320px) {
+    .CardDetailImg{
+        width: 250px;
+    }
+    .DetailCollapse{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .CardDetailCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

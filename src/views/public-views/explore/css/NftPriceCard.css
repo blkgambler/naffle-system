@@ -1,0 +1,72 @@
+
+.NftPriceImg{
+    border-radius: 20px 20px 0px 0px !important;
+}
+.NftPriceCard .ant-card-body{
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+.NftPriceCard .NftPriceDesText{
+    display: flex;
+    flex-direction: column;
+}
+.NftPriceCard .NftPriceMark{
+    max-width: 40px !important;
+}
+.NftPriceCard .NftPriceTypeBig{
+    font-family: Bebas Neue;
+    font-size: 25px;
+    line-height: 20px;
+    color: white;
+}
+.NftPriceCard .NftPriceTypeSmall{
+    color: white;
+    font-family: Bebas Neue;
+}
+.NftPriceCard .TicketsAmountInfo{
+    display: flex;
+    flex-direction: column;
+}
+.NftPriceCard .TicketNumber{
+    font-family: Bebas Neue;
+    font-size: 35px;
+    line-height: 30px;
+    margin-top: 5px;
+    color: white;
+}
+.NftPriceCard .TicketAmount{
+    font-family: Bebas Neue;
+    color: white;
+
+}
+.NftPriceCard .PriceCaption{
+    font-family: Bebas Neue;
+    color: white;
+
+}
+.NftPriceCard .Price{
+    font-family: Bebas Neue;
+    font-size: 30px;
+    margin-left: 5px;
+    color: white;
+
+}
+.NftPriceCard .PriceImg{
+    max-width: 10px;
+}
+.NftPriceCard .DelayDay{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 15px;
+}
+
+@media screen and (max-width:640px) {
+    .NftPriceCard{
+       width: 300px !important;
+   }
+}
+@media screen and (max-width:560px) {
+    .NftPriceCard{
+        width: 240px !important;
+    }
+ }
